@@ -1,0 +1,12 @@
+[
+  {
+    "title": "foo",
+    "body": "bar",
+    "userId": 1
+  },
+  {
+    "title": "hello",
+    "body": "world",
+    "userId": 2
+  }
+]

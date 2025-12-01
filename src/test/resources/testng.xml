@@ -1,0 +1,14 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="API Suite" parallel="methods" thread-count="5">
+    <test name="JSONPlaceholder API Tests">
+        <classes>
+            <class name="com.example.tests.PostTests"/>
+            <class name="com.example.tests.CommentTests"/>
+            <class name="com.example.tests.AlbumTests"/>
+            <class name="com.example.tests.PhotoTests"/>
+            <class name="com.example.tests.TodoTests"/>
+            <class name="com.example.tests.UserTests"/>
+        </classes>
+    </test>
+</suite>
