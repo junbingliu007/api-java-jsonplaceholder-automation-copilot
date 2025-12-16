@@ -38,8 +38,7 @@ public class ScreenshotUtils {
         for (char c : text.toCharArray()) {
             sb.append(c);
             count++;
-            if (c == '
-' || count >= maxCharsPerLine) {
+            if (c == ' ' || count >= maxCharsPerLine) {
                 lines.add(sb.toString());
                 sb.setLength(0);
                 count = 0;
